@@ -28,7 +28,8 @@ class EchoHandler(BaseHTTPRequestHandler):
         self.end_headers()
 
         #Define the query path!
-        path_ = self.path[1:]
+        path_ = self.path[1:] #we add [1:] to omit the first character of the string
+        # We know that the path will end in /path, so we start from the second character!
 
         # Now, write the response body.
         self.wfile.write(path_.encode())
