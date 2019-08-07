@@ -21,3 +21,20 @@ from animals, diet
 where animals.species = diet.species
 and diet.food = 'fish'
 limit 100
+
+-----------------------------------
+-- Practice with where vs. having --
+-- where comes before the aggregation, and having comes after! --
+
+-- Find the one food that is eaten by only one animal.
+--
+-- The animals table has columns (name, species, birthdate) for each
+-- individual.
+-- The diet table has columns (species, food) for each food that a
+-- species eats.
+
+select diet.food, diet.species, animals.name, count(food) as number_of_eaters
+from animals, diet
+where animals.species = diet.species
+group by food
+having number_of_eaters = 1;
