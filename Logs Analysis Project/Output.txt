@@ -1,0 +1,15 @@
+... Logs Analysis Project - Spencer Bertsch ...
+
+1. What are the most popular three articles of all time?
+The most popular article is Candidate is jerk, alleges rival with a view count of 338647 views.
+The second most popular article is Bears love berries, alleges bear with a view count of 253801 views.
+The third most popular article is Bad things gone, say good people with a view count of 170098 views.
+
+2. Who are the most popular article authors of all time?
+The most popular author is Ursula La Multa with 507594 views.
+The second most popular author is Rudolf von Treppenwitz with 423457 views.
+The third most popular author is Anonymous Contributor with a count of 170098 views.
+The fourth most popular author is Markoff Chaney with a count of 84557 views.
+
+3. On which days did more than 1% of requests lead to errors?
+On 2016-07-17 roughly 2.3% of requests lead to errors.
