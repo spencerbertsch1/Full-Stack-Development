@@ -59,24 +59,3 @@ select percent_error, date from
     ) as answer
     where percent_error > 0.01;
 
-
-  # REFERENCES
-  """
-  Through this project I used several sites including stack exchange, stack overflow, and github.
-  By far the largest source of input that I used for this project was the Udacity message board.
-  I'm not sure who Christopher C is, but his answers to questions were very helpful!
-  I also figured out many of the problems by simply rewatching the videos on SQL from this course!
-  They were very helpful!
-  """
-
-
-
-
-
-
-
-
-
-
-
---end
