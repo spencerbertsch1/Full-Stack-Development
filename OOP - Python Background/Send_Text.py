@@ -7,9 +7,9 @@ print(twilio.__version__)
 from twilio.rest import Client
 
 # Your Account SID from twilio.com/console
-account_sid = "AC6ea0b3c69aa2fd6f7c19d467283f1e78"
+account_sid = "XXX"
 # Your Auth Token from twilio.com/console
-auth_token  = "6769d73dedf3f1334580254e9209fe90"
+auth_token  = "YYY"
 
 client = Client(account_sid, auth_token)
 
