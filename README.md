@@ -1,2 +1,2 @@
 # Full-Stack-Development
-Full Stack Web Development - Udacity Course 
+Full Stack Web Development - Udacity Nanodegree
